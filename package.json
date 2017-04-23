@@ -1,5 +1,5 @@
-
 {
+  "homepage": "https://<github-username>.github.io/advanced-homework-2",
   "name": "advanced-homework-2",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +8,7 @@
     "eslint": "^3.19.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-react": "^6.10.3",
+    "gh-pages": "^0.12.0",
     "react-scripts": "^0.9.5"
   },
   "dependencies": {
@@ -23,6 +24,7 @@
     "api": "json-server --id _id --watch --port 4000 db.json",
     "build": "react-scripts build",
     "test": "npm run lint && react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy" : "npm run build&&gh-pages -d build"
   }
 }
