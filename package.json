@@ -3,6 +3,7 @@
   "name": "advanced-homework-2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://<github-username>.github.io/advanced-homework-2",
   "devDependencies": {
     "babel-eslint": "^7.2.2",
     "eslint": "^3.19.0",
