@@ -3,7 +3,6 @@
   "name": "advanced-homework-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<github-username>.github.io/advanced-homework-2",
   "devDependencies": {
     "babel-eslint": "^7.2.2",
     "eslint": "^3.19.0",
@@ -26,6 +25,6 @@
     "build": "react-scripts build",
     "test": "npm run lint && react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy" : "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build"
   }
 }
